@@ -58,7 +58,7 @@ GitHub Repository Link: https://github.com/Amit-10101/TinDog_Bootstrap_Project
 I'm excited to connect with fellow enthusiasts, learners, and potential collaborators. Feel free to reach out through any of the following channels:
 
 - Email: <amitkm.4211@gmail.com>
-- LinkedIn: [Amit Kumar](<(https://www.linkedin.com/in/amit-kumar-539277251/)>)
-- GitHub: [Amit-10101](<(https://github.com/Amit-10101)>)
+- LinkedIn: [Amit Kumar](<https://www.linkedin.com/in/amit-kumar-539277251/>)
+- GitHub: [Amit-10101](<https://github.com/Amit-10101>)
 
 Your interest and feedback mean the world to me. Let's code a brighter future together! 🚀
