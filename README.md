@@ -31,7 +31,7 @@ GitHub Repository Link: https://github.com/Amit-10101/Dice_Challenge
 
 ### 2. Drum Kit 🥁
 Unleash your inner musician with the Drum Kit project. Play various instrument sounds using your keyboard or mouse, and create your beats!  
-Website Link: https://amit-10101.github.io/Drum-Kit/  
+Website Link: https://amit-10101.github.io/Drum_Kit/  
 GitHub Repository Link: https://github.com/Amit-10101/Drum_Kit
 
 ### 3. Global Warming Website 🌍
