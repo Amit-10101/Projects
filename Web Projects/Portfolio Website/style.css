@@ -1,0 +1,387 @@
+body {
+    margin: 0;
+    font-family: 'Maven Pro', sans-serif;
+    background-color: rgb(213, 213, 213);
+}
+
+#heroes {
+    background-image: url(assets/images/background.jpg);
+    background-size: 100vw;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+#hero-title {
+    margin: 0;
+    color: white;
+    font-size: 400%;
+    position: absolute;
+    top: 32%;
+    left: 10%;
+}
+
+#amit {
+    color: rgb(47, 197, 177);
+    /* color: burlywood; */
+}
+
+#profile {
+    height: 35rem;
+    display: flex;
+    /* background-color: rgb(227, 227, 227); */
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-container {
+    width: 50%;
+    display: grid;
+    grid-row: auto 1fr 1fr;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.amit-pic {
+    border-radius: 50%;
+    margin-top: 2rem;
+    justify-self: center;
+}
+
+.profile-container h2,
+.profile-container p {
+    justify-self: center;
+    text-align: center;
+    font-size: larger;
+    margin: 1rem;
+    line-height: 2rem;
+}
+
+.profile-container h2 {
+    font-size: 280%;
+    margin: 1rem;
+    line-height: 3rem;
+    color: rgb(33, 143, 128);
+    /* color: #6b6a23; */
+}
+
+hr {
+    border-top: 5px dotted rgb(143, 143, 143);
+    width: 7rem;
+}
+
+#skills {
+    height: 60rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    grid-template-rows: 1fr 2fr 2fr;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    gap: 3rem;
+    width: 70%;
+}
+
+.skill-section-head {
+    grid-column: span 2;
+    justify-self: center;
+    font-size: 300%;
+    color: rgb(33, 143, 128);
+}
+
+.skill-pic {
+    width: 18rem;
+    border-radius: 10px;
+    display: flex;
+    align-self: center;
+}
+
+.skill-head {
+    font-size: 160%;
+}
+
+.skill-content {
+    font-size: 120%;
+    text-align: justify;
+    line-height: 2rem;
+}
+
+#projects {
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.project-container1 {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 4rem;
+}
+
+.project-section-head {
+    grid-column: span 3;
+    justify-self: center;
+    font-size: 300%;
+    color: rgb(33, 143, 128);
+}
+
+.project-card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    font-size: 110%;
+}
+
+.project-img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.project-container1 p {
+    margin-bottom: 15%;
+}
+
+.btn {
+    width: 100%;
+    background-color: #001C30;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: larger;
+    padding: 5px;
+}
+
+.btn:hover {
+    background-color: #13354e;
+    -webkit-box-shadow: 0 0 8px #5d5d5d;
+        box-shadow: 0 0 8px #5d5d5d;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35rem;
+    text-align: center;
+}
+
+.contact-container {
+    width: 70%;
+}
+
+.contact-container h2 {
+    font-size: 300%;
+    margin-top: 0;
+    color: rgb(33, 143, 128);
+}
+
+.contact-container p {
+    font-size: 120%;
+}
+
+.contact-btn {
+    width: 20%;
+    background-color: rgb(26, 112, 101);
+    border-radius: 10px;
+    color: white;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: larger;
+    font-weight: 500;
+    padding: 1rem;
+    border: 3px solid rgb(26, 112, 101);
+}
+
+.contact-btn:hover {
+    -webkit-box-shadow: 0 0 8px #5d5d5d;
+        box-shadow: 0 0 8px #5d5d5d;
+}
+
+.cv-btn {
+    margin-left: 2rem;
+    background-color: rgb(213, 213, 213);
+    color: rgb(26, 112, 101);
+}
+
+.cv-btn:hover {
+    color: rgb(213, 213, 213);
+    background-color: rgb(26, 112, 101);
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #001C30;
+    padding: 2rem;
+    color: white;
+    line-height: 200%;
+}
+
+@media (max-width: 1200px) and (min-width: 1001px) {
+    #heroes {
+        background-repeat: no-repeat;
+        height: 40rem;
+    }
+
+    #hero-title {
+        position: absolute;
+        top: 24%;
+        left: 10%;
+    }
+}
+
+@media (max-width: 1000px) {
+    html {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    #heroes {
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+        height: 18rem;
+        margin-top: 0;
+        margin-right: 0;
+        font-size: 55%;
+    }
+
+    #hero-title {
+        position: absolute;
+        top: 25%;
+        left: 10%;
+    }
+
+    #profile {
+        height: max-content;
+    }
+
+    .profile-container {
+        width: 70%;
+        display: grid;
+        grid-row: auto 1fr 1fr;
+        margin: 2rem 0;
+    }
+
+    #skills {
+        height: max-content;
+        margin-top: 3rem;
+    }
+
+    .skills-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 5rem 1fr 0.5fr 1fr 0.5fr;
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+        gap: 2rem;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .skill-section-head {
+        grid-column: 1 / -1;
+        font-size: 300%;
+        margin: 1rem 0;
+    }
+
+    .skill-head {
+        margin-top: 0;
+    }
+    .skill-content {
+        margin-bottom: 3rem;
+        align-self: flex-start;
+    }
+
+    .skill-pic {
+        height: 70%;
+        width: 100%;
+        border-radius: 10px;
+        justify-self: center;
+    }
+
+    #projects {
+        height: max-content;
+        margin: 1rem 0 4rem 0;
+    }
+
+    .project-container1 {
+        width: 80%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr  1fr 1fr;
+        gap: 3rem;
+        font-size: 125%;
+    }
+
+    .project-section-head {
+        grid-column: 1 / -1;
+        font-size: 250%;
+    }
+
+    #contact {
+        line-height: 200%;
+        height: max-content;
+    }
+
+    .contact-container h2 {
+        line-height: 140%;
+        margin-top: 0.25rem;
+    }
+
+    .btn-container {
+        display: grid;
+        width: 90%;
+        height: 18rem;
+        grid-row: 1fr 1fr;
+        justify-content: center;
+        /* justify-items: center; */
+        align-items: center;
+        margin-bottom: 5rem;
+        margin-left: 0;
+    }
+
+    .contact-btn {
+        width: 100%;
+    }
+    .cv-btn {
+        margin-left: 0;
+    }
+}
