@@ -1,0 +1,264 @@
+body {
+    margin: 0;
+    background-color: gainsboro;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.global_para h1 {
+    font-size: 48px;
+}
+
+/* #global_para_pic,
+#cause_pic,
+#carb_cal_pic {
+    -webkit-box-shadow: 0 0 8px #5d5d5d;
+        box-shadow: 0 0 8px #5d5d5d;
+} */
+
+header {
+    background-color: rgb(42, 133, 82);
+    display: grid;
+    width: 100%;
+    position: fixed;
+    grid-template-columns: 45% auto auto auto auto auto;
+    grid-template-rows: auto;
+}
+
+.spacer {
+    width: 100%;
+    height: 110px;
+}
+
+#logo_div {
+    width: 100%;
+    text-align: left;
+    padding: 0.3em;
+}
+
+#logo {
+    height: 13vh;
+    margin: 2px 15px;
+}
+
+#cover_pic {
+    margin: 0.2%;
+    width: 99.6%;
+    border-radius: 10px;
+}
+
+#global_para_pic {
+    float: left;
+    margin: 1em 2em;
+    width: 15%;
+    border-radius: 10%;
+}
+
+.nav_items {
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    vertical-align: text-bottom;
+    font-weight: bold;
+    font-size: 110%;
+    margin: auto;
+}
+
+.nav_linkbox {
+    align-self: flex-end;
+    text-align: center;
+    width: 90%;
+    height: 50%;
+}
+
+.nav_linkbox:hover {
+    background-color: rgb(90, 150, 152);
+    transition-delay: 0.1s;
+    box-shadow: 1px 2px 7px black;
+}
+
+.links:hover {
+    color: black;
+}
+
+.nav_linkbox p {
+    margin: 16.5px;
+}
+
+a:link, a:active, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.causes {
+    clear: left;
+    margin: 0.5em;
+    padding: 1.5em;
+    display: grid;
+    grid-template-columns: 36% 36% auto;
+    grid-template-rows: 20% auto;
+}
+
+#causes_head {
+    grid-column: auto / span 3;
+}
+
+#cause_pic {
+    border-radius: 10%;
+    width: 65%;
+    margin: auto;
+    -webkit-box-shadow: 0 0 8px #5d5d5d;
+        box-shadow: 0 0 8px #5d5d5d;
+}
+
+.man_cause,
+.natural_cause {
+    font-size: 110%;
+}
+
+.carb_cal {
+    margin: 0 0.5em 0.5em 0.5em;
+    padding: 1.5em 1.5em 1.5em 1.5em;
+    height: 30vh;
+    font-size: 105%;
+}
+
+#carb_cal_pic {
+    float: left;
+    border-radius: 10%;
+    width: 20%;
+    margin-right: 2em;
+}
+
+.global_para,
+.carb_cal {
+    margin: 0.5em;
+}
+
+.effects,
+.solutions,
+.news_box {
+    background-color: rgba(201, 201, 201, 0.85);
+    border-radius: 1em;
+    margin: 2em;
+    padding: 2em;
+    text-align: justify;
+}
+
+.effects h1,
+.solutions h1,
+.carb_cal h2 {
+    margin-top: 0.3em;
+    font-size: 200%;
+}
+
+.news_box {
+    background-color: rgba(187, 187, 187, 0.9);
+}
+
+.more_info_box,
+#submit,
+#reset {
+    color: white;
+    font-size: 110%;
+    font-weight: bolder;
+    width: 6.2em;
+    text-align: center;
+    margin: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(47, 153, 95);
+    padding: 15px;
+    border-radius: 5px;
+    display: inline-block;
+    border: 0;
+}
+
+#reset {
+    background-color: rgb(196, 56, 56);
+    margin-left: 1em;
+}
+
+#reset:hover {
+    background-color: rgb(174, 38, 38);
+    -webkit-box-shadow: 0 0 8px #5d5d5d;
+        box-shadow: 0 0 8px #5d5d5d;
+}
+
+.more_info_box:hover,
+#submit:hover {
+    background-color: rgb(41, 133, 83);
+    -webkit-box-shadow: 0 0 8px #5d5d5d;
+        box-shadow: 0 0 8px #5d5d5d;
+}
+
+main {
+    padding: 1em;
+}
+
+.global_para h1,
+.contact_box h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.causes h2,
+.carb_cal h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.global_para p,
+.causes li {
+    font-size: 120%;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.contact_box {
+    width: 28%;
+    text-align: center;
+    margin: 2em auto;
+    border: 4px solid rgb(136, 135, 135);
+    border-radius: 10px;
+    background-color: gainsboro;
+    padding: 2em;
+}
+
+.form_box {
+    margin: auto;
+    width: 85%;
+    text-align: left;
+    padding: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea {
+    width: 97%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0.8em;
+    border: 2px solid rgb(136, 135, 135);
+    border-radius: 0.5em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+input[type="text"]:hover,
+input[type="date"]:hover,
+input[type="email"]:hover,
+textarea:hover {
+    box-shadow: 1px 1px 9px rgb(104, 104, 104);
+}
+
+.btn {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 2.5em;
+    margin: auto;
+}
